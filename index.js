@@ -20,6 +20,6 @@ const titleCased = () => {
     }
     console.log(tutorial)
   })
-  
+
   return tutorials
 }
