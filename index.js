@@ -21,6 +21,7 @@ const titleCased = () => {
       tutorialW[i].charAt(0).toUpperCase();
       sentence += tutorialW[i]+" ";
     }
+    console.log(tutorial)
     tutorial = sentence;;
     return tutorial;
 
