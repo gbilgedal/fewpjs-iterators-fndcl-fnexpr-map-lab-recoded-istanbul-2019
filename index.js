@@ -11,6 +11,7 @@ const tutorials = [
   'what is JSONP?'
 ];
 
+const titleCased = titleCased();
 
 function titleCased(){
 
