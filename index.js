@@ -12,6 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
+  console.log("f")
   tutorials.map(function(tutorial){
     tutorial = tutorial.split(" ");
     for(let i = 0;i<tutorial.length;i++){
