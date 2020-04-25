@@ -14,14 +14,14 @@ const tutorials = [
 
 const titleCased = () => {
 
-  tutorials.map(function(tutorial){
+  tutorials.map(function(tutorial) {
     tutorialW = tutorial.split(" ");
     let sentence=""
     for(let i = 0;i<tutorialW.length;i++){
       tutorialW[i].charAt(0).toUpperCase();
       sentence += tutorialW[i]+" ";
     }
-    console.log(tutorial)
+
     tutorial = sentence;;
     return tutorial;
 
