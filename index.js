@@ -20,7 +20,7 @@ const titleCased = () => {
       tutorial[i].charAt(0).toUpperCase();
     }
     return tutorial;
-    
+
   })
 
   return tutorials
