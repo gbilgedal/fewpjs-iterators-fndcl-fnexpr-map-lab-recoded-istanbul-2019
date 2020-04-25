@@ -10,7 +10,7 @@ const tutorials = [
   'what is the difference between event capturing and bubbling?',
   'what is JSONP?'
 ];
-tutorials.titleCased();
+
 
 const titleCased = () => {
 
@@ -19,7 +19,8 @@ const titleCased = () => {
     for(let i = 0;i<tutorial.length;i++){
       tutorial[i].charAt(0).toUpperCase();
     }
-
+    return tutorial;
+    
   })
 
   return tutorials
