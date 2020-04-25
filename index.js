@@ -14,7 +14,7 @@ const tutorials = [
 
 const titleCased = () => {
 
-  tutorials.map(function(tutorial) {
+  return tutorials.map(function(tutorial) {
     tutorialW = tutorial.split(" ");
     let sentence=""
     for(let i = 0;i<tutorialW.length;i++){
