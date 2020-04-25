@@ -17,7 +17,7 @@ const titleCased = () => {
       for(let i = 0;i<tutorial.length;i++){
         tutorial[i].charAt(0).toUpperCase();
       }
-    
+
     console.log(tutorial)
   })
 
